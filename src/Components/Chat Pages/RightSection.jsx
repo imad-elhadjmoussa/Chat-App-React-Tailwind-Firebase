@@ -7,6 +7,7 @@ import { Button, } from '@mui/material'
 import AddPhotoAlternateIcon from '@mui/icons-material/AddPhotoAlternate';
 import AttachFileIcon from '@mui/icons-material/AttachFile';
 import img from './../../img.png'
+import { Message } from './Message';
 
 export const RightSection = () => {
     return (
@@ -23,8 +24,16 @@ export const RightSection = () => {
                 </div>
             </div>
 
-            <div className='  h-3/4 overflow-y-scroll'>
-                    
+            <div className=' p-3 flex  flex-col items-end gap-4  h-3/4 overflow-y-scroll'>
+                    <Message/>
+                    <Message/>
+                    <Message/>
+                    <Message/>
+                    <Message/>
+                    <Message/>
+                    <Message/>
+                    <Message/>
+
             </div>
 
             <div className='flex absolute bottom-0 right-0 left-0  rounded-br-lg   justify-between gap-3 p-3  ' >
